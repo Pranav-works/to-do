@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>My To-Do List</h2>
+    <form action="/" method="POST">
+        <input type="text" name="task" placeholder="Add Task">
+        <button type="submit">Add</button>
+    </form>
+
+    <ul>
+        {% for task in tasks %}
+        <li>{{task[1]}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

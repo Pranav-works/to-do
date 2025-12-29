@@ -1,0 +1,6 @@
+body { font-family: Arial; width: 50%; margin: auto; }
+h2 { text-align: center; }
+input { width: 70%; padding: 8px; }
+button { padding: 8px; }
+ul { margin-top: 20px; }
+li { margin: 5px 0; background:#eee; padding:8px; }
